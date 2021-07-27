@@ -80,7 +80,7 @@ export default class App extends Component {
         <header>
       <form id='To-do-form' onSubmit={this.addButton} >
         <input placeholder="Todays todo" type="text" value={this.state.currentItem.text} onChange={this.enterInput}/>
-          <button type="submit" > Add </button>
+          <button className="Add-button" type="submit" > Add </button>
       
       </form>
       <DisplayList items={this.state.items} deleteTodo={this.deleteTodo} makeUpdate={this.makeUpdate} />
