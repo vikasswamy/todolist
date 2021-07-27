@@ -64,6 +64,7 @@ export default class App extends Component {
 
                item.text = text;
           }
+          return({});
         });
         
           this.setState({
